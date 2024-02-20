@@ -1,0 +1,16 @@
+{
+  "name": "chat-stdlib",
+  "packageManager": "yarn@3.6.4",
+  "main": "dist/index.js",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "build": "yarn tsc",
+    "lint": "yarn eslint src --ext js/ts",
+    "test": "yarn jest"
+  },
+  "volta": {
+    "node": "20.11.1",
+    "yarn": "3.8.0"
+  }
+}
