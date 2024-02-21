@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "build": "yarn tsc",
-    "lint": "yarn eslint src --ext js/ts",
+    "lint": "yarn eslint \"src/*.{js,ts}\"",
     "test": "yarn jest"
   },
   "volta": {
